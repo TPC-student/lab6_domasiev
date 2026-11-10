@@ -1,5 +1,5 @@
 R1#show startup-config
-Using 636 bytes
+Using 641 bytes
 !
 version 15.1
 no service timestamps log datetime msec
@@ -43,12 +43,12 @@ spanning-tree mode pvst
 !
 !
 interface GigabitEthernet0/0
- ip address 10.10.10.254 255.255.255.0
+ ip address 192.168.11.254 255.255.255.0
  duplex auto
  speed auto
 !
 interface GigabitEthernet0/1
- ip address 10.10.20.254 255.255.255.0
+ ip address 192.168.100.254 255.255.255.0
  duplex auto
  speed auto
 !
